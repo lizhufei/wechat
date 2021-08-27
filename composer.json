@@ -3,6 +3,11 @@
     "description": "华视后台微信组件",
     "type": "composer-plugin",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hsvisus\\Wechat\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "'fei'",
