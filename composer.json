@@ -1,0 +1,27 @@
+{
+    "name": "hsvisus/wechat",
+    "description": "华视后台微信组件",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "'fei'",
+            "email": "'13380320462@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "endroid/qr-code": "^4.2",
+        "overtrue/wechat": "^5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hsvisus\\Wechat\\WechatProvider"
+            ],
+            "aliases": {
+                "Wechat": "Hsvisus\\Wechat\\FacadeService"
+            }
+        }
+    }
+}
