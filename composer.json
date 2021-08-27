@@ -1,7 +1,7 @@
 {
     "name": "hsvisus/wechat",
     "description": "华视后台微信组件",
-    "type": "composer-plugin",
+    "type": "composer-pluin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
