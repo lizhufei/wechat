@@ -49,7 +49,9 @@ class WechatProvider extends ServiceProvider implements DeferrableProvider
             __DIR__.'/Migrations/2021_08_18_102230_create_access_codes_table.php',
             __DIR__.'/Migrations/2021_08_18_100102_create_configurations_table.php',
             __DIR__.'/Migrations/2021_08_20_150501_create_subscribers_table.php',
+            __DIR__.'/Migrations/2021_08_18_170938_create_official_menus_table.php',
             __DIR__.'/Migrations/2021_08_25_143343_create_qr_table.php',
+
         ];
         $this->loadMigrationsFrom($migrations);
     }
